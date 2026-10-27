@@ -1,0 +1,4 @@
+(executable
+ (public_name twitch_chat)
+ (name main)
+ (libraries twitch_chat eio eio_main cstruct tls ca-certs mirage-crypto-rng.unix unix))
